@@ -45,8 +45,5 @@
 预计10-30分钟。
 
 ## 下一步
-
-跑完后把 `data/processed/abstracts_corpus.jsonl` 和 `data/processed/fulltext_index.jsonl`
-的统计结果(脚本会打印篇数汇总)告诉我,我据此设计第4步:
 用LLM API把这些摘要/全文转成"理论问题-推理-答案"形式的指令微调数据集(QA pairs),
 这是直接影响微调效果的关键一步。
